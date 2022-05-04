@@ -1,6 +1,6 @@
 # LUCKY NUMBER
 
-### Lucky Number is a project prepared at the end of the NCD training.
+> ## Lucky Number is a project prepared at the end of the NCD training.
 
 
 **Lucky Number** is a **game** of **chance** played with _two users._
@@ -17,7 +17,7 @@
 
 - If the numbers are _equal,_ **1 NEAR** deposit is paid back to users' accounts.
 
-### Prerequisites
+## Prerequisites
 
 Lucky Number is a smart contract running on NEAR. We should install near-cli to play.
 
@@ -31,7 +31,7 @@ yarn
 npm install --global near-cli
 ```
 
-### Build - Deploy
+## Build - Deploy
 
 - First, we need to **login.**
 ```
@@ -53,7 +53,7 @@ yarn deploy
 export CONTRACT=<your_dev_id>
 ```
 
-### How to Play
+## How to Play
 
 - **Create** a new game.
 ```
@@ -69,10 +69,10 @@ near call $CONTRACT findLuck '{"id":"<gameId>"}' --accountId <player_2>.testnet 
 ```
 near call $CONTRACT fortune '{"id": "<gameId>"}' --accountId <any_player.testnet>   //_starts the game_
 ```
-> ### **Check your wallet. :)**
+> ## **Check your wallet. :)**
 
 
-### Access Smart Contract
+## Access Smart Contract
 
 - To search for _any game_.
 ```
