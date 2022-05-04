@@ -67,7 +67,7 @@ near call $CONTRACT findLuck '{"id":"<gameId>"}' --accountId <player_2>.testnet 
 
 - Are you fortunate ?
 ```
-near call $CONTRACT fortune '{"id": "<gameId>"}' --accountId <any_player.testnet>   //_starts the game_
+near call $CONTRACT fortune '{"id": "<gameId>"}' --accountId <any_player.testnet>
 ```
 > ## **Check your wallet. :)**
 
