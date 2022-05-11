@@ -62,7 +62,7 @@ near call $CONTRACT createLucky --accountId <your_account.testnet> --amount 1
 
 - For the **Second Player** to participate.
 ```
-near call $CONTRACT findLuck '{"id":"<gameId>"}' --accountId <player_2>.testnet --amount 1
+near call $CONTRACT findLuck '{"id":"<gameId>"}' --accountId <player_2.testnet> --amount 1
 ```
 
 - Are you fortunate ?
